@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5BS-Ju-9Vm" customClass="LLBusinessTopPic">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="850"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_001" translatesAutoresizingMaskIntoConstraints="NO" id="v8U-Qs-idu">
+                    <rect key="frame" x="8" y="8" width="304" height="202.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="v8U-Qs-idu" secondAttribute="height" multiplier="3:2" id="faR-Na-PO8"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_002" translatesAutoresizingMaskIntoConstraints="NO" id="EmW-VZ-hnY">
+                    <rect key="frame" x="8" y="218.5" width="304" height="202.5"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_003" translatesAutoresizingMaskIntoConstraints="NO" id="ls0-24-WqZ">
+                    <rect key="frame" x="8" y="429" width="304" height="202.5"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_004" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-y9-JLm">
+                    <rect key="frame" x="8" y="639.5" width="304" height="202.5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="v8U-Qs-idu" firstAttribute="leading" secondItem="5BS-Ju-9Vm" secondAttribute="leading" constant="8" id="Acn-I0-ve8"/>
+                <constraint firstItem="ls0-24-WqZ" firstAttribute="height" secondItem="v8U-Qs-idu" secondAttribute="height" id="EVs-Iq-5OP"/>
+                <constraint firstItem="ls0-24-WqZ" firstAttribute="width" secondItem="v8U-Qs-idu" secondAttribute="width" id="Jvq-cx-CV1"/>
+                <constraint firstItem="v8U-Qs-idu" firstAttribute="top" secondItem="5BS-Ju-9Vm" secondAttribute="top" constant="8" id="LuW-5B-Did"/>
+                <constraint firstItem="EmW-VZ-hnY" firstAttribute="centerX" secondItem="v8U-Qs-idu" secondAttribute="centerX" id="McK-Cf-Bqv"/>
+                <constraint firstItem="lZV-y9-JLm" firstAttribute="width" secondItem="v8U-Qs-idu" secondAttribute="width" id="QVj-jI-IyL"/>
+                <constraint firstItem="lZV-y9-JLm" firstAttribute="top" secondItem="ls0-24-WqZ" secondAttribute="bottom" constant="8" id="Xd6-Ho-F4Z"/>
+                <constraint firstItem="ls0-24-WqZ" firstAttribute="top" secondItem="EmW-VZ-hnY" secondAttribute="bottom" constant="8" id="a1B-ca-Ztl"/>
+                <constraint firstAttribute="trailing" secondItem="v8U-Qs-idu" secondAttribute="trailing" constant="8" id="bdH-Hs-u2V"/>
+                <constraint firstItem="lZV-y9-JLm" firstAttribute="height" secondItem="v8U-Qs-idu" secondAttribute="height" id="coV-M7-wDt"/>
+                <constraint firstItem="lZV-y9-JLm" firstAttribute="centerX" secondItem="v8U-Qs-idu" secondAttribute="centerX" id="e33-2o-i7A"/>
+                <constraint firstItem="ls0-24-WqZ" firstAttribute="centerX" secondItem="v8U-Qs-idu" secondAttribute="centerX" id="jdT-Bt-M7q"/>
+                <constraint firstItem="EmW-VZ-hnY" firstAttribute="height" secondItem="v8U-Qs-idu" secondAttribute="height" id="n6E-Pe-tUl"/>
+                <constraint firstItem="EmW-VZ-hnY" firstAttribute="width" secondItem="v8U-Qs-idu" secondAttribute="width" id="o4H-N7-vRd"/>
+                <constraint firstItem="EmW-VZ-hnY" firstAttribute="top" secondItem="v8U-Qs-idu" secondAttribute="bottom" constant="8" id="trk-Hs-Pkm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24" y="-66"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="business_ad_001" width="720" height="480"/>
+        <image name="business_ad_002" width="720" height="480"/>
+        <image name="business_ad_003" width="720" height="480"/>
+        <image name="business_ad_004" width="720" height="480"/>
+    </resources>
+</document>

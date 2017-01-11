@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LLTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //创建标签控制器
+    LLTabBarViewController *tab = [[LLTabBarViewController alloc]init];
+    //设置根控制器
+    self.window.rootViewController =tab;
+    //加载并显示
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
