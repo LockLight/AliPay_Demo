@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD6A0F011E27A5390059EBE5 /* LLBusinessType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EF71E27A5390059EBE5 /* LLBusinessType.m */; };
+		CD6A0F021E27A5390059EBE5 /* businessType.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0EF91E27A5390059EBE5 /* businessType.plist */; };
+		CD6A0F031E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EFB1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m */; };
+		CD6A0F041E27A5390059EBE5 /* LLBusinessTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EFE1E27A5390059EBE5 /* LLBusinessTypeView.m */; };
+		CD6A0F051E27A5390059EBE5 /* LLBussnissTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F001E27A5390059EBE5 /* LLBussnissTypeCell.m */; };
+		CD6A0F081E27A56B0059EBE5 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F071E27A56B0059EBE5 /* UILabel+Addition.m */; };
+		CD6A0F0D1E27A89D0059EBE5 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F0A1E27A89D0059EBE5 /* NSArray+Addition.m */; };
+		CD6A0F0E1E27A89D0059EBE5 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F0C1E27A89D0059EBE5 /* NSObject+Addition.m */; };
+		CD6A0F101E27BC2F0059EBE5 /* Friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0F0F1E27BC2F0059EBE5 /* Friends.plist */; };
+		CD6A0F131E27BCDF0059EBE5 /* LLFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F121E27BCDF0059EBE5 /* LLFriend.m */; };
+		CD6A0F171E27BE950059EBE5 /* LLFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F151E27BE950059EBE5 /* LLFriendCell.m */; };
+		CD6A0F181E27BE950059EBE5 /* LLFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0F161E27BE950059EBE5 /* LLFriendCell.xib */; };
+		CD96E5681E287DE100AF1A1D /* LLMomentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96E55D1E287DE100AF1A1D /* LLMomentController.m */; };
+		CD96E5691E287DE100AF1A1D /* LLMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96E5601E287DE100AF1A1D /* LLMoment.m */; };
+		CD96E56A1E287DE100AF1A1D /* Moment.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD96E5621E287DE100AF1A1D /* Moment.plist */; };
+		CD96E56B1E287DE100AF1A1D /* LLMomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96E5651E287DE100AF1A1D /* LLMomentCell.m */; };
+		CD96E56C1E287DE100AF1A1D /* LLMomentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96E5671E287DE100AF1A1D /* LLMomentHeaderView.m */; };
 		CDC9E3E11E24F10900355C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9E3E01E24F10900355C7B /* main.m */; };
 		CDC9E3EC1E24F10900355C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC9E3EB1E24F10900355C7B /* Assets.xcassets */; };
 		CDC9E3EF1E24F10900355C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9E3ED1E24F10900355C7B /* LaunchScreen.storyboard */; };
@@ -41,6 +58,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD6A0EF61E27A5390059EBE5 /* LLBusinessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessType.h; sourceTree = "<group>"; };
+		CD6A0EF71E27A5390059EBE5 /* LLBusinessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessType.m; sourceTree = "<group>"; };
+		CD6A0EF91E27A5390059EBE5 /* businessType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = businessType.plist; sourceTree = "<group>"; };
+		CD6A0EFA1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessTypeFlowLayout.h; sourceTree = "<group>"; };
+		CD6A0EFB1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessTypeFlowLayout.m; sourceTree = "<group>"; };
+		CD6A0EFD1E27A5390059EBE5 /* LLBusinessTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessTypeView.h; sourceTree = "<group>"; };
+		CD6A0EFE1E27A5390059EBE5 /* LLBusinessTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessTypeView.m; sourceTree = "<group>"; };
+		CD6A0EFF1E27A5390059EBE5 /* LLBussnissTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBussnissTypeCell.h; sourceTree = "<group>"; };
+		CD6A0F001E27A5390059EBE5 /* LLBussnissTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBussnissTypeCell.m; sourceTree = "<group>"; };
+		CD6A0F061E27A56B0059EBE5 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		CD6A0F071E27A56B0059EBE5 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		CD6A0F091E27A89D0059EBE5 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		CD6A0F0A1E27A89D0059EBE5 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		CD6A0F0B1E27A89D0059EBE5 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		CD6A0F0C1E27A89D0059EBE5 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		CD6A0F0F1E27BC2F0059EBE5 /* Friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Friends.plist; sourceTree = "<group>"; };
+		CD6A0F111E27BCDF0059EBE5 /* LLFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFriend.h; sourceTree = "<group>"; };
+		CD6A0F121E27BCDF0059EBE5 /* LLFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFriend.m; sourceTree = "<group>"; };
+		CD6A0F141E27BE950059EBE5 /* LLFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFriendCell.h; sourceTree = "<group>"; };
+		CD6A0F151E27BE950059EBE5 /* LLFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFriendCell.m; sourceTree = "<group>"; };
+		CD6A0F161E27BE950059EBE5 /* LLFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLFriendCell.xib; sourceTree = "<group>"; };
+		CD96E55C1E287DE100AF1A1D /* LLMomentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMomentController.h; sourceTree = "<group>"; };
+		CD96E55D1E287DE100AF1A1D /* LLMomentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMomentController.m; sourceTree = "<group>"; };
+		CD96E55F1E287DE100AF1A1D /* LLMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMoment.h; sourceTree = "<group>"; };
+		CD96E5601E287DE100AF1A1D /* LLMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMoment.m; sourceTree = "<group>"; };
+		CD96E5621E287DE100AF1A1D /* Moment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Moment.plist; sourceTree = "<group>"; };
+		CD96E5641E287DE100AF1A1D /* LLMomentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMomentCell.h; sourceTree = "<group>"; };
+		CD96E5651E287DE100AF1A1D /* LLMomentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMomentCell.m; sourceTree = "<group>"; };
+		CD96E5661E287DE100AF1A1D /* LLMomentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMomentHeaderView.h; sourceTree = "<group>"; };
+		CD96E5671E287DE100AF1A1D /* LLMomentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMomentHeaderView.m; sourceTree = "<group>"; };
 		CDC9E3DC1E24F10900355C7B /* Alipay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alipay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC9E3E01E24F10900355C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDC9E3EB1E24F10900355C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +163,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD6A0EF31E27A5390059EBE5 /* AliPay_BusinessType */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF41E27A5390059EBE5 /* Controller */,
+				CD6A0EF51E27A5390059EBE5 /* Model */,
+				CD6A0EF81E27A5390059EBE5 /* Other */,
+				CD6A0EFC1E27A5390059EBE5 /* View */,
+			);
+			path = AliPay_BusinessType;
+			sourceTree = "<group>";
+		};
+		CD6A0EF41E27A5390059EBE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD6A0EF51E27A5390059EBE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF61E27A5390059EBE5 /* LLBusinessType.h */,
+				CD6A0EF71E27A5390059EBE5 /* LLBusinessType.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD6A0EF81E27A5390059EBE5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF91E27A5390059EBE5 /* businessType.plist */,
+				CD6A0EFA1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.h */,
+				CD6A0EFB1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD6A0EFC1E27A5390059EBE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EFD1E27A5390059EBE5 /* LLBusinessTypeView.h */,
+				CD6A0EFE1E27A5390059EBE5 /* LLBusinessTypeView.m */,
+				CD6A0EFF1E27A5390059EBE5 /* LLBussnissTypeCell.h */,
+				CD6A0F001E27A5390059EBE5 /* LLBussnissTypeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD96E55A1E287DE100AF1A1D /* AliPay_Moment */ = {
+			isa = PBXGroup;
+			children = (
+				CD96E55B1E287DE100AF1A1D /* Controller */,
+				CD96E55E1E287DE100AF1A1D /* Model */,
+				CD96E5611E287DE100AF1A1D /* Other */,
+				CD96E5631E287DE100AF1A1D /* View */,
+			);
+			path = AliPay_Moment;
+			sourceTree = "<group>";
+		};
+		CD96E55B1E287DE100AF1A1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD96E55C1E287DE100AF1A1D /* LLMomentController.h */,
+				CD96E55D1E287DE100AF1A1D /* LLMomentController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD96E55E1E287DE100AF1A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD96E55F1E287DE100AF1A1D /* LLMoment.h */,
+				CD96E5601E287DE100AF1A1D /* LLMoment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD96E5611E287DE100AF1A1D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD96E5621E287DE100AF1A1D /* Moment.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD96E5631E287DE100AF1A1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD96E5641E287DE100AF1A1D /* LLMomentCell.h */,
+				CD96E5651E287DE100AF1A1D /* LLMomentCell.m */,
+				CD96E5661E287DE100AF1A1D /* LLMomentHeaderView.h */,
+				CD96E5671E287DE100AF1A1D /* LLMomentHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CDC9E3D31E24F10900355C7B = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +313,7 @@
 		CDC9E3FC1E24F66600355C7B /* Friend */ = {
 			isa = PBXGroup;
 			children = (
+				CD96E55A1E287DE100AF1A1D /* AliPay_Moment */,
 				CDC9E3FD1E24F66600355C7B /* Controller */,
 				CDC9E3FE1E24F66600355C7B /* Model */,
 				CDC9E3FF1E24F66600355C7B /* Other */,
@@ -190,6 +334,8 @@
 		CDC9E3FE1E24F66600355C7B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0F111E27BCDF0059EBE5 /* LLFriend.h */,
+				CD6A0F121E27BCDF0059EBE5 /* LLFriend.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +343,7 @@
 		CDC9E3FF1E24F66600355C7B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0F0F1E27BC2F0059EBE5 /* Friends.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -204,6 +351,9 @@
 		CDC9E4001E24F66600355C7B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0F141E27BE950059EBE5 /* LLFriendCell.h */,
+				CD6A0F151E27BE950059EBE5 /* LLFriendCell.m */,
+				CD6A0F161E27BE950059EBE5 /* LLFriendCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,8 +488,14 @@
 		CDC9E4101E24F66600355C7B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0F091E27A89D0059EBE5 /* NSArray+Addition.h */,
+				CD6A0F0A1E27A89D0059EBE5 /* NSArray+Addition.m */,
+				CD6A0F0B1E27A89D0059EBE5 /* NSObject+Addition.h */,
+				CD6A0F0C1E27A89D0059EBE5 /* NSObject+Addition.m */,
 				CDC9E4111E24F66600355C7B /* NSAttributedString+Additon.h */,
 				CDC9E4121E24F66600355C7B /* NSAttributedString+Additon.m */,
+				CD6A0F061E27A56B0059EBE5 /* UILabel+Addition.h */,
+				CD6A0F071E27A56B0059EBE5 /* UILabel+Addition.m */,
 				CDC9E4131E24F66600355C7B /* UIColor+Addition.h */,
 				CDC9E4141E24F66600355C7B /* UIColor+Addition.m */,
 			);
@@ -399,6 +555,7 @@
 		CDE217DC1E25E04C0012C4D6 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0EF31E27A5390059EBE5 /* AliPay_BusinessType */,
 				CDE217DD1E25E04C0012C4D6 /* Controller */,
 				CDE217E01E25E04C0012C4D6 /* Model */,
 				CDE217E31E25E04C0012C4D6 /* Other */,
@@ -516,11 +673,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6A0F021E27A5390059EBE5 /* businessType.plist in Resources */,
 				CDE217F01E25E04C0012C4D6 /* business.plist in Resources */,
+				CD6A0F101E27BC2F0059EBE5 /* Friends.plist in Resources */,
 				CDC9E4361E24F66600355C7B /* Info.plist in Resources */,
+				CD96E56A1E287DE100AF1A1D /* Moment.plist in Resources */,
 				CDC9E3EF1E24F10900355C7B /* LaunchScreen.storyboard in Resources */,
 				CDE217F61E25E0FD0012C4D6 /* LLBusiness.storyboard in Resources */,
 				CDE217F31E25E04C0012C4D6 /* LLBusinessTopPic.xib in Resources */,
+				CD6A0F181E27BE950059EBE5 /* LLFriendCell.xib in Resources */,
 				CDC9E3EC1E24F10900355C7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,12 +700,21 @@
 				CDEE6EEC1E24FF3000A53165 /* LLFriendViewController.m in Sources */,
 				CDC9E4371E24F66600355C7B /* MASCompositeConstraint.m in Sources */,
 				CDC9E43D1E24F66600355C7B /* NSArray+MASAdditions.m in Sources */,
+				CD96E56C1E287DE100AF1A1D /* LLMomentHeaderView.m in Sources */,
 				CDEB5B851E25062500911C79 /* LLNaviViewController.m in Sources */,
+				CD6A0F081E27A56B0059EBE5 /* UILabel+Addition.m in Sources */,
+				CD6A0F051E27A5390059EBE5 /* LLBussnissTypeCell.m in Sources */,
+				CD96E5681E287DE100AF1A1D /* LLMomentController.m in Sources */,
+				CD6A0F041E27A5390059EBE5 /* LLBusinessTypeView.m in Sources */,
 				CDE217F11E25E04C0012C4D6 /* LLBusinessCell.m in Sources */,
+				CD96E5691E287DE100AF1A1D /* LLMoment.m in Sources */,
 				CDC9E4351E24F66600355C7B /* UIColor+Addition.m in Sources */,
+				CD6A0F171E27BE950059EBE5 /* LLFriendCell.m in Sources */,
 				CDC9E3E11E24F10900355C7B /* main.m in Sources */,
 				CDC9E4411E24F66600355C7B /* AppDelegate.m in Sources */,
 				CDC9E43A1E24F66600355C7B /* MASLayoutConstraint.m in Sources */,
+				CD6A0F011E27A5390059EBE5 /* LLBusinessType.m in Sources */,
+				CD6A0F0D1E27A89D0059EBE5 /* NSArray+Addition.m in Sources */,
 				CDEE6EEF1E24FF3D00A53165 /* LLHomeViewController.m in Sources */,
 				CDC9E4341E24F66600355C7B /* NSAttributedString+Additon.m in Sources */,
 				CDEE6EF21E24FF4900A53165 /* LLMineViewController.m in Sources */,
@@ -554,9 +724,13 @@
 				CDCA61DF1E25141C00ACE420 /* LLHomeTopView.m in Sources */,
 				CDC9E43B1E24F66600355C7B /* MASViewAttribute.m in Sources */,
 				CDC9E4381E24F66600355C7B /* MASConstraint.m in Sources */,
+				CD96E56B1E287DE100AF1A1D /* LLMomentCell.m in Sources */,
+				CD6A0F031E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m in Sources */,
 				CDE217F41E25E04C0012C4D6 /* LLLevelView.m in Sources */,
+				CD6A0F0E1E27A89D0059EBE5 /* NSObject+Addition.m in Sources */,
 				CDE217EF1E25E04C0012C4D6 /* LLBusinessModel.m in Sources */,
 				CDC9E4391E24F66600355C7B /* MASConstraintMaker.m in Sources */,
+				CD6A0F131E27BCDF0059EBE5 /* LLFriend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

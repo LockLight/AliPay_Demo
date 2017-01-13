@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>user01_icon</string>
+		<key>name</key>
+		<string>德玛西亚</string>
+		<key>content</key>
+		<string>出门溜一圈</string>
+		<key>picture</key>
+		<string>pic1</string>
+		<key>time</key>
+		<string>昨天</string>
+		<key>isMine</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>user02_icon</string>
+		<key>name</key>
+		<string>艾泽拉斯</string>
+		<key>content</key>
+		<string>自泰坦神带给艾泽拉斯世界以秩序后很多年过去了，无数生灵在新的卡利姆多大陆上蓬勃生长着，永恒之井的无尽魔力充盈到艾泽拉斯世界的各个角落，这魔力为每一个地方都带去了无限的生机与活力，甚至，更久远的影响。。。</string>
+		<key>picture</key>
+		<string>pic2</string>
+		<key>time</key>
+		<string>前天</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>user01_icon</string>
+		<key>name</key>
+		<string>飞哥</string>
+		<key>content</key>
+		<string>彩虹彩虹</string>
+		<key>picture</key>
+		<string>pic3</string>
+		<key>time</key>
+		<string>昨天</string>
+	</dict>
+</array>
+</plist>

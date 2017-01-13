@@ -51,14 +51,16 @@
 //- (UIViewController *)childViewControllerForStatusBarStyle{
 //    return self.topViewController;
 //}
-///*
-//#pragma mark - Navigation
-//
-//// In a storyboard-based application, you will often want to do a little preparation before navigation
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-//    // Get the new view controller using [segue destinationViewController].
-//    // Pass the selected object to the new view controller.
-//}
+///
+#pragma mark  导航栏push新视图,隐藏标签栏操作
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    //隐藏
+    if(self.viewControllers.count  > 0){
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    //执行系统push方法,将子控制器添加至导航栏
+    [super pushViewController:viewController animated:animated];
+}
 
 
 @end

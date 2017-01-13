@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LLFriendViewController : UIViewController
+@interface LLFriendViewController : UITableViewController
 
 @end
