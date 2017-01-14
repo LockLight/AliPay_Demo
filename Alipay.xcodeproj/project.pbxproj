@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD02453D1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02453C1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m */; };
+		CD3F798A1E28AFF000E5CB27 /* LLChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F79891E28AFF000E5CB27 /* LLChatViewController.m */; };
+		CD3F798D1E28B0A500E5CB27 /* LLChat.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F798C1E28B0A500E5CB27 /* LLChat.m */; };
+		CD3F79901E28B58100E5CB27 /* LLChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F798F1E28B58100E5CB27 /* LLChatViewCell.m */; };
+		CD3F79921E28C26500E5CB27 /* Chats.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3F79911E28C26500E5CB27 /* Chats.plist */; };
 		CD6A0F011E27A5390059EBE5 /* LLBusinessType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EF71E27A5390059EBE5 /* LLBusinessType.m */; };
 		CD6A0F021E27A5390059EBE5 /* businessType.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0EF91E27A5390059EBE5 /* businessType.plist */; };
 		CD6A0F031E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EFB1E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m */; };
@@ -58,6 +63,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD02453B1E2A3D930030C8E7 /* LLChatOtherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChatOtherTableViewCell.h; sourceTree = "<group>"; };
+		CD02453C1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChatOtherTableViewCell.m; sourceTree = "<group>"; };
+		CD3F79881E28AFF000E5CB27 /* LLChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChatViewController.h; sourceTree = "<group>"; };
+		CD3F79891E28AFF000E5CB27 /* LLChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChatViewController.m; sourceTree = "<group>"; };
+		CD3F798B1E28B0A500E5CB27 /* LLChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChat.h; sourceTree = "<group>"; };
+		CD3F798C1E28B0A500E5CB27 /* LLChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChat.m; sourceTree = "<group>"; };
+		CD3F798E1E28B58100E5CB27 /* LLChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChatViewCell.h; sourceTree = "<group>"; };
+		CD3F798F1E28B58100E5CB27 /* LLChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChatViewCell.m; sourceTree = "<group>"; };
+		CD3F79911E28C26500E5CB27 /* Chats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chats.plist; sourceTree = "<group>"; };
 		CD6A0EF61E27A5390059EBE5 /* LLBusinessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessType.h; sourceTree = "<group>"; };
 		CD6A0EF71E27A5390059EBE5 /* LLBusinessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessType.m; sourceTree = "<group>"; };
 		CD6A0EF91E27A5390059EBE5 /* businessType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = businessType.plist; sourceTree = "<group>"; };
@@ -163,6 +177,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD3F79811E28AF4B00E5CB27 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F79821E28AF4B00E5CB27 /* Controller */,
+				CD3F79831E28AF4B00E5CB27 /* Model */,
+				CD3F79841E28AF4B00E5CB27 /* Other */,
+				CD3F79851E28AF4B00E5CB27 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CD3F79821E28AF4B00E5CB27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F79881E28AFF000E5CB27 /* LLChatViewController.h */,
+				CD3F79891E28AFF000E5CB27 /* LLChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD3F79831E28AF4B00E5CB27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F798B1E28B0A500E5CB27 /* LLChat.h */,
+				CD3F798C1E28B0A500E5CB27 /* LLChat.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD3F79841E28AF4B00E5CB27 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F79911E28C26500E5CB27 /* Chats.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD3F79851E28AF4B00E5CB27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F798E1E28B58100E5CB27 /* LLChatViewCell.h */,
+				CD3F798F1E28B58100E5CB27 /* LLChatViewCell.m */,
+				CD02453B1E2A3D930030C8E7 /* LLChatOtherTableViewCell.h */,
+				CD02453C1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CD6A0EF31E27A5390059EBE5 /* AliPay_BusinessType */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +375,7 @@
 		CDC9E3FC1E24F66600355C7B /* Friend */ = {
 			isa = PBXGroup;
 			children = (
+				CD3F79811E28AF4B00E5CB27 /* Chat */,
 				CD96E55A1E287DE100AF1A1D /* AliPay_Moment */,
 				CDC9E3FD1E24F66600355C7B /* Controller */,
 				CDC9E3FE1E24F66600355C7B /* Model */,
@@ -673,6 +736,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3F79921E28C26500E5CB27 /* Chats.plist in Resources */,
 				CD6A0F021E27A5390059EBE5 /* businessType.plist in Resources */,
 				CDE217F01E25E04C0012C4D6 /* business.plist in Resources */,
 				CD6A0F101E27BC2F0059EBE5 /* Friends.plist in Resources */,
@@ -695,6 +759,7 @@
 			files = (
 				CDC9E43E1E24F66600355C7B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				CDE217F21E25E04C0012C4D6 /* LLBusinessTopPic.m in Sources */,
+				CD3F798A1E28AFF000E5CB27 /* LLChatViewController.m in Sources */,
 				CDEE6EF51E25012F00A53165 /* LLTabBarViewController.m in Sources */,
 				CDC9E43C1E24F66600355C7B /* MASViewConstraint.m in Sources */,
 				CDEE6EEC1E24FF3000A53165 /* LLFriendViewController.m in Sources */,
@@ -703,6 +768,8 @@
 				CD96E56C1E287DE100AF1A1D /* LLMomentHeaderView.m in Sources */,
 				CDEB5B851E25062500911C79 /* LLNaviViewController.m in Sources */,
 				CD6A0F081E27A56B0059EBE5 /* UILabel+Addition.m in Sources */,
+				CD3F798D1E28B0A500E5CB27 /* LLChat.m in Sources */,
+				CD3F79901E28B58100E5CB27 /* LLChatViewCell.m in Sources */,
 				CD6A0F051E27A5390059EBE5 /* LLBussnissTypeCell.m in Sources */,
 				CD96E5681E287DE100AF1A1D /* LLMomentController.m in Sources */,
 				CD6A0F041E27A5390059EBE5 /* LLBusinessTypeView.m in Sources */,
@@ -720,6 +787,7 @@
 				CDEE6EF21E24FF4900A53165 /* LLMineViewController.m in Sources */,
 				CDC9E4401E24F66600355C7B /* ViewController+MASAdditions.m in Sources */,
 				CDE217EE1E25E04C0012C4D6 /* LLBusinessController.m in Sources */,
+				CD02453D1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m in Sources */,
 				CDC9E43F1E24F66600355C7B /* View+MASAdditions.m in Sources */,
 				CDCA61DF1E25141C00ACE420 /* LLHomeTopView.m in Sources */,
 				CDC9E43B1E24F66600355C7B /* MASViewAttribute.m in Sources */,

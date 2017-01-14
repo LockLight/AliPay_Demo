@@ -61,6 +61,7 @@
             vc.view.backgroundColor = [UIColor yellowColor];
             [self.navigationController pushViewController:vc animated:YES];
         }
+            break;
         case LLHomeTopViewBtnXiu:{
             UIViewController *vc = [[UIViewController alloc]init];
             vc.view.backgroundColor = [UIColor yellowColor];

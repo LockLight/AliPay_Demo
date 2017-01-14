@@ -37,7 +37,8 @@
     
     //关闭透明效果
     self.navigationBar.translucent = NO;
-    
+    //修改首页导航栏按钮颜色
+    self.navigationBar.tintColor =[UIColor whiteColor];    
 }
 //
 - (UIStatusBarStyle)preferredStatusBarStyle{

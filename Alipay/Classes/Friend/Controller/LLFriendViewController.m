@@ -10,6 +10,7 @@
 #import "NSArray+Addition.h"
 #import "LLFriendCell.h"
 #import "LLMomentController.h"
+#import "LLChatViewController.h"
 
 
 //cell标识
@@ -43,6 +44,10 @@ static NSString *sectionTwoID = @"sectionTwoID";
     self.tableView.rowHeight = cell.bounds.size.height;
     //设置分割线从最左开始
     self.tableView.separatorInset = UIEdgeInsetsZero;
+    //创建返回按钮
+    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
+    //设置返回按钮
+    self.navigationItem.backBarButtonItem = backBtn;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -63,10 +68,11 @@ static NSString *sectionTwoID = @"sectionTwoID";
     }
     if(indexPath.row == 2){
         //创建聊天界面
-        
+        LLChatViewController *chatVc = [[LLChatViewController alloc]init];
         //设置背景色
-        
+        chatVc.view.backgroundColor = [UIColor lightGrayColor];
         //显示
+        [self.navigationController pushViewController:chatVc animated:YES];
     }
 }
 
