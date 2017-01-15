@@ -47,6 +47,15 @@
 		CDC9E4401E24F66600355C7B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9E4301E24F66600355C7B /* ViewController+MASAdditions.m */; };
 		CDC9E4411E24F66600355C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9E4331E24F66600355C7B /* AppDelegate.m */; };
 		CDCA61DF1E25141C00ACE420 /* LLHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCA61DE1E25141C00ACE420 /* LLHomeTopView.m */; };
+		CDDCE9141E2BA03600241E4D /* LLMineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCE9131E2BA03600241E4D /* LLMineFlowLayout.m */; };
+		CDDCE9171E2BA1F700241E4D /* LLMineOption.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCE9161E2BA1F700241E4D /* LLMineOption.m */; };
+		CDDCE9191E2BA24300241E4D /* MineOption.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDDCE9181E2BA24300241E4D /* MineOption.plist */; };
+		CDDCE91D1E2BA62500241E4D /* LLMineInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCE91B1E2BA62500241E4D /* LLMineInfoCell.m */; };
+		CDDCE91E1E2BA62500241E4D /* LLMineInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDCE91C1E2BA62500241E4D /* LLMineInfoCell.xib */; };
+		CDDCE9221E2BA64B00241E4D /* LLMineBalanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCE9201E2BA64B00241E4D /* LLMineBalanceCell.m */; };
+		CDDCE9231E2BA64B00241E4D /* LLMineBalanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDCE9211E2BA64B00241E4D /* LLMineBalanceCell.xib */; };
+		CDDCE9271E2BA67700241E4D /* LLMineOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCE9251E2BA67700241E4D /* LLMineOptionCell.m */; };
+		CDDCE9281E2BA67700241E4D /* LLMineOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDCE9261E2BA67700241E4D /* LLMineOptionCell.xib */; };
 		CDE217EE1E25E04C0012C4D6 /* LLBusinessController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE217DF1E25E04C0012C4D6 /* LLBusinessController.m */; };
 		CDE217EF1E25E04C0012C4D6 /* LLBusinessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE217E21E25E04C0012C4D6 /* LLBusinessModel.m */; };
 		CDE217F01E25E04C0012C4D6 /* business.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDE217E41E25E04C0012C4D6 /* business.plist */; };
@@ -141,6 +150,20 @@
 		CDC9E4331E24F66600355C7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDCA61DD1E25141C00ACE420 /* LLHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHomeTopView.h; sourceTree = "<group>"; };
 		CDCA61DE1E25141C00ACE420 /* LLHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHomeTopView.m; sourceTree = "<group>"; };
+		CDDCE9121E2BA03600241E4D /* LLMineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineFlowLayout.h; sourceTree = "<group>"; };
+		CDDCE9131E2BA03600241E4D /* LLMineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineFlowLayout.m; sourceTree = "<group>"; };
+		CDDCE9151E2BA1F700241E4D /* LLMineOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineOption.h; sourceTree = "<group>"; };
+		CDDCE9161E2BA1F700241E4D /* LLMineOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineOption.m; sourceTree = "<group>"; };
+		CDDCE9181E2BA24300241E4D /* MineOption.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MineOption.plist; sourceTree = "<group>"; };
+		CDDCE91A1E2BA62500241E4D /* LLMineInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineInfoCell.h; sourceTree = "<group>"; };
+		CDDCE91B1E2BA62500241E4D /* LLMineInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineInfoCell.m; sourceTree = "<group>"; };
+		CDDCE91C1E2BA62500241E4D /* LLMineInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLMineInfoCell.xib; sourceTree = "<group>"; };
+		CDDCE91F1E2BA64B00241E4D /* LLMineBalanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLMineBalanceCell.h; path = ../../../../LLMineBalanceCell.h; sourceTree = "<group>"; };
+		CDDCE9201E2BA64B00241E4D /* LLMineBalanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLMineBalanceCell.m; path = ../../../../LLMineBalanceCell.m; sourceTree = "<group>"; };
+		CDDCE9211E2BA64B00241E4D /* LLMineBalanceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LLMineBalanceCell.xib; path = ../../../../LLMineBalanceCell.xib; sourceTree = "<group>"; };
+		CDDCE9241E2BA67700241E4D /* LLMineOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineOptionCell.h; sourceTree = "<group>"; };
+		CDDCE9251E2BA67700241E4D /* LLMineOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineOptionCell.m; sourceTree = "<group>"; };
+		CDDCE9261E2BA67700241E4D /* LLMineOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLMineOptionCell.xib; sourceTree = "<group>"; };
 		CDE217DE1E25E04C0012C4D6 /* LLBusinessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessController.h; sourceTree = "<group>"; };
 		CDE217DF1E25E04C0012C4D6 /* LLBusinessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessController.m; sourceTree = "<group>"; };
 		CDE217E11E25E04C0012C4D6 /* LLBusinessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessModel.h; sourceTree = "<group>"; };
@@ -530,6 +553,8 @@
 		CDC9E40D1E24F66600355C7B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDDCE9151E2BA1F700241E4D /* LLMineOption.h */,
+				CDDCE9161E2BA1F700241E4D /* LLMineOption.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -537,6 +562,9 @@
 		CDC9E40E1E24F66600355C7B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CDDCE9181E2BA24300241E4D /* MineOption.plist */,
+				CDDCE9121E2BA03600241E4D /* LLMineFlowLayout.h */,
+				CDDCE9131E2BA03600241E4D /* LLMineFlowLayout.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -544,6 +572,15 @@
 		CDC9E40F1E24F66600355C7B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDDCE91F1E2BA64B00241E4D /* LLMineBalanceCell.h */,
+				CDDCE9201E2BA64B00241E4D /* LLMineBalanceCell.m */,
+				CDDCE9211E2BA64B00241E4D /* LLMineBalanceCell.xib */,
+				CDDCE91A1E2BA62500241E4D /* LLMineInfoCell.h */,
+				CDDCE91B1E2BA62500241E4D /* LLMineInfoCell.m */,
+				CDDCE91C1E2BA62500241E4D /* LLMineInfoCell.xib */,
+				CDDCE9241E2BA67700241E4D /* LLMineOptionCell.h */,
+				CDDCE9251E2BA67700241E4D /* LLMineOptionCell.m */,
+				CDDCE9261E2BA67700241E4D /* LLMineOptionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -736,6 +773,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDCE9281E2BA67700241E4D /* LLMineOptionCell.xib in Resources */,
+				CDDCE9191E2BA24300241E4D /* MineOption.plist in Resources */,
+				CDDCE91E1E2BA62500241E4D /* LLMineInfoCell.xib in Resources */,
 				CD3F79921E28C26500E5CB27 /* Chats.plist in Resources */,
 				CD6A0F021E27A5390059EBE5 /* businessType.plist in Resources */,
 				CDE217F01E25E04C0012C4D6 /* business.plist in Resources */,
@@ -743,6 +783,7 @@
 				CDC9E4361E24F66600355C7B /* Info.plist in Resources */,
 				CD96E56A1E287DE100AF1A1D /* Moment.plist in Resources */,
 				CDC9E3EF1E24F10900355C7B /* LaunchScreen.storyboard in Resources */,
+				CDDCE9231E2BA64B00241E4D /* LLMineBalanceCell.xib in Resources */,
 				CDE217F61E25E0FD0012C4D6 /* LLBusiness.storyboard in Resources */,
 				CDE217F31E25E04C0012C4D6 /* LLBusinessTopPic.xib in Resources */,
 				CD6A0F181E27BE950059EBE5 /* LLFriendCell.xib in Resources */,
@@ -760,6 +801,7 @@
 				CDC9E43E1E24F66600355C7B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				CDE217F21E25E04C0012C4D6 /* LLBusinessTopPic.m in Sources */,
 				CD3F798A1E28AFF000E5CB27 /* LLChatViewController.m in Sources */,
+				CDDCE9221E2BA64B00241E4D /* LLMineBalanceCell.m in Sources */,
 				CDEE6EF51E25012F00A53165 /* LLTabBarViewController.m in Sources */,
 				CDC9E43C1E24F66600355C7B /* MASViewConstraint.m in Sources */,
 				CDEE6EEC1E24FF3000A53165 /* LLFriendViewController.m in Sources */,
@@ -781,20 +823,24 @@
 				CDC9E4411E24F66600355C7B /* AppDelegate.m in Sources */,
 				CDC9E43A1E24F66600355C7B /* MASLayoutConstraint.m in Sources */,
 				CD6A0F011E27A5390059EBE5 /* LLBusinessType.m in Sources */,
+				CDDCE9141E2BA03600241E4D /* LLMineFlowLayout.m in Sources */,
 				CD6A0F0D1E27A89D0059EBE5 /* NSArray+Addition.m in Sources */,
 				CDEE6EEF1E24FF3D00A53165 /* LLHomeViewController.m in Sources */,
 				CDC9E4341E24F66600355C7B /* NSAttributedString+Additon.m in Sources */,
 				CDEE6EF21E24FF4900A53165 /* LLMineViewController.m in Sources */,
 				CDC9E4401E24F66600355C7B /* ViewController+MASAdditions.m in Sources */,
+				CDDCE9271E2BA67700241E4D /* LLMineOptionCell.m in Sources */,
 				CDE217EE1E25E04C0012C4D6 /* LLBusinessController.m in Sources */,
 				CD02453D1E2A3D930030C8E7 /* LLChatOtherTableViewCell.m in Sources */,
 				CDC9E43F1E24F66600355C7B /* View+MASAdditions.m in Sources */,
+				CDDCE91D1E2BA62500241E4D /* LLMineInfoCell.m in Sources */,
 				CDCA61DF1E25141C00ACE420 /* LLHomeTopView.m in Sources */,
 				CDC9E43B1E24F66600355C7B /* MASViewAttribute.m in Sources */,
 				CDC9E4381E24F66600355C7B /* MASConstraint.m in Sources */,
 				CD96E56B1E287DE100AF1A1D /* LLMomentCell.m in Sources */,
 				CD6A0F031E27A5390059EBE5 /* LLBusinessTypeFlowLayout.m in Sources */,
 				CDE217F41E25E04C0012C4D6 /* LLLevelView.m in Sources */,
+				CDDCE9171E2BA1F700241E4D /* LLMineOption.m in Sources */,
 				CD6A0F0E1E27A89D0059EBE5 /* NSObject+Addition.m in Sources */,
 				CDE217EF1E25E04C0012C4D6 /* LLBusinessModel.m in Sources */,
 				CDC9E4391E24F66600355C7B /* MASConstraintMaker.m in Sources */,

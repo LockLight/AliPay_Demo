@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LLMineViewController : UIViewController
+@interface LLMineViewController : UICollectionViewController
 
 @end
